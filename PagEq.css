@@ -1,0 +1,145 @@
+.home{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-image: url(https://i.pinimg.com/564x/17/a8/b1/17a8b1ec4416a54f6ac712cdfc31369e.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.RyanPag{
+    background-color: lightcoral;
+    
+
+}
+.RyanPag img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 12px rgb(253, 101, 0);
+}
+
+.RyanPag h2, .RyanPag p{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+.RyanPag li{
+    text-align: left;
+    color: black;
+}
+
+
+
+.IcaroPag{
+    background-color: black;
+
+}
+.IcaroPag h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.IcaroPag img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 12px rgb(0, 68, 255)
+}
+
+.IcaroPag li{
+    text-align: left;
+}
+
+button{
+    display: block; 
+    margin: auto; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    color: rgb(150, 150, 150);
+    border: none;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(117, 124, 124, 0.726);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 16px rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.card2{
+    background-color: rgba(192, 247, 247, 0.726);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.card3{
+    background-color: rgba(192, 247, 247, 0.726);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3{
+    text-align: center;
+    color: black;
+}
+.Ryan {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.Ryan img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.Icaro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Icaro img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info a {
+    font-style: italic;
+    color: aliceblue;
+}
+
+
+.info p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 0;
+}
