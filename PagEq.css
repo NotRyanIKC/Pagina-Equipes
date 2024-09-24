@@ -10,8 +10,6 @@
 
 .RyanPag{
     background-color: lightcoral;
-    
-
 }
 .RyanPag img{
     width: 90px;
@@ -21,7 +19,7 @@
     box-shadow: 0 0px 12px rgb(253, 101, 0);
 }
 
-.RyanPag h2, .RyanPag p{
+.RyanPag h2, .RyanPag p , .RyanPag a{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: black;
@@ -31,11 +29,8 @@
     color: black;
 }
 
-
-
 .IcaroPag{
-    background-color: black;
-
+    background-color: deeppink
 }
 
 .IcaroPag img{
@@ -48,7 +43,12 @@
 
 .IcaroPag li{
     text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.IcaroPag p, .IcaroPag h2, .IcaroPag a{
     color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 button{
@@ -57,8 +57,9 @@ button{
     padding: 10px 20px; 
     font-size: 16px; 
     cursor: pointer; 
-    color: rgb(150, 150, 150);
+    color: rgb(0, 0, 0);
     border: none;
+    font-family: 'Times New Roman', Times, serif;
 } 
 
 .container {
@@ -92,20 +93,22 @@ button{
     text-align: center;
     color: rgb(255, 255, 255);
 }
+
 h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h3{
+h3 {
     text-align: center;
     color: black;
 }
+
 .Ryan {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-
 }
 
 .Ryan img {
@@ -131,12 +134,14 @@ h3{
 
 .info a {
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
 }
 
 
 .info p {
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5px;
     margin: 0;
 }
